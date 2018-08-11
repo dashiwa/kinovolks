@@ -54,20 +54,20 @@ unit_kernel_tests: &unit_kernel_tests
     - save_cache: *save_cache
 
 ## Job to run the update path and Behat tests.
-behat_tests: &behat_tests
-  <<: *defaults
-  steps:
-    - checkout
-    - *copy_robo
-    - restore_cache: *restore_cache
-    - run:
-        name: Run Behat tests
-        command: robo job:run-behat-tests
-    - save_cache: *save_cache
-    - store_test_results:
-        path: /var/www/html/artifacts/behat
-    - store_artifacts:
-        path: /var/www/html/artifacts
+#behat_tests: &behat_tests
+#  <<: *defaults
+#  steps:
+#    - checkout
+#    - *copy_robo
+#    - restore_cache: *restore_cache
+#    - run:
+#        name: Run Behat tests
+#        command: robo job:run-behat-tests
+#    - save_cache: *save_cache
+#    - store_test_results:
+#        path: /var/www/html/artifacts/behat
+#    - store_artifacts:
+#        path: /var/www/html/artifacts
 
 ## Job to check coding standards.
 code_sniffer: &code_sniffer
@@ -104,8 +104,8 @@ version: 2
 jobs:
   run-unit-kernel-tests:
      <<: *unit_kernel_tests
-  run-behat-tests:
-     <<: *behat_tests
+  #  run-behat-tests:
+  #     <<: *behat_tests
   run-code-sniffer:
      <<: *code_sniffer
   run-code-coverage:
