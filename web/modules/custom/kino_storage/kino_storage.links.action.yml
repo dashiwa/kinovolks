@@ -1,0 +1,11 @@
+entity.kino_user_entity.add_form:
+  route_name: entity.kino_user_entity.add_page
+  title: 'Add Kino user entity'
+  appears_on:
+  - entity.kino_user_entity.collection
+entity.kino_user_entity_type.add_form:
+  route_name: entity.kino_user_entity_type.add_form
+  title: 'Add Kino user entity type'
+  appears_on:
+  - entity.kino_user_entity_type.collection
+

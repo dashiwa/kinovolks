@@ -1,0 +1,30 @@
+add kino user entity entities:
+  title: 'Create new Kino user entity entities'
+
+administer kino user entity entities:
+  title: 'Administer Kino user entity entities'
+  description: 'Allow to access the administration form to configure Kino user entity entities.'
+  restrict access: true
+
+delete kino user entity entities:
+  title: 'Delete Kino user entity entities'
+
+edit kino user entity entities:
+  title: 'Edit Kino user entity entities'
+
+view published kino user entity entities:
+  title: 'View published Kino user entity entities'
+
+view unpublished kino user entity entities:
+  title: 'View unpublished Kino user entity entities'
+
+view all kino user entity revisions:
+  title: 'View all Kino user entity revisions'
+
+revert all kino user entity revisions:
+  title: 'Revert all Kino user entity revisions'
+  description: 'Role requires permission <em>view Kino user entity revisions</em> and <em>edit rights</em> for kino user entity entities in question or <em>administer kino user entity entities</em>.'
+
+delete all kino user entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Kino user entity revisions</em> and <em>delete rights</em> for kino user entity entities in question or <em>administer kino user entity entities</em>.'
