@@ -1,0 +1,20 @@
+uuid: 3238c165-24d3-47e0-97d4-481d6b8a1282
+langcode: en
+status: true
+dependencies:
+  module:
+  - kino_entity
+  - taxonomy
+id: kino_entity.field_year
+field_name: field_year
+entity_type: kino_entity
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,39 @@
+uuid: 66302269-37a2-4c2b-88f2-ef398146ba32
+langcode: en
+status: true
+dependencies:
+  config:
+  - field.field.kino_user_entity.kino_user_profile.field_kino_user_ref
+  - kino_storage.kino_user_entity_type.kino_user_profile
+id: kino_user_entity.kino_user_profile.default
+targetEntityType: kino_user_entity
+bundle: kino_user_profile
+mode: default
+content:
+  field_kino_user_ref:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

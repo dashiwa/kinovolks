@@ -1,0 +1,29 @@
+uuid: 5006eaf1-285e-4806-864e-9a91a9d76d32
+langcode: en
+status: true
+dependencies:
+  config:
+  - field.storage.kino_entity.field_genre
+  - kino_entity.kino_entity_type.kinoserial
+  - taxonomy.vocabulary.genre
+id: kino_entity.kinoserial.field_genre
+field_name: field_genre
+entity_type: kino_entity
+bundle: kinoserial
+label: Genre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      genre: genre
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

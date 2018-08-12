@@ -1,0 +1,71 @@
+uuid: 4d2544cd-9ab4-4e00-9a79-da2f46890d85
+langcode: en
+status: true
+dependencies:
+  config:
+  - field.field.kino_entity.kinoserial.field_country
+  - field.field.kino_entity.kinoserial.field_description
+  - field.field.kino_entity.kinoserial.field_genre
+  - field.field.kino_entity.kinoserial.field_year
+  - kino_entity.kino_entity_type.kinoserial
+  module:
+  - text
+id: kino_entity.kinoserial.default
+targetEntityType: kino_entity
+bundle: kinoserial
+mode: default
+content:
+  field_country:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_description:
+    weight: 29
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_genre:
+    weight: 28
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_year:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

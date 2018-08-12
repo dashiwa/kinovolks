@@ -1,0 +1,28 @@
+uuid: 0224a28b-b550-4bc6-9c14-e64383d72e4b
+langcode: en
+status: true
+dependencies:
+  config:
+  - field.storage.kino_user_entity.field_kino_user_ref
+  - kino_storage.kino_user_entity_type.kino_user_profile
+id: kino_user_entity.kino_user_profile.field_kino_user_ref
+field_name: field_kino_user_ref
+entity_type: kino_user_entity
+bundle: kino_user_profile
+label: 'Kino user ref'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

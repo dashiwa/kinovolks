@@ -1,0 +1,29 @@
+uuid: 69764ba2-7888-464e-86c8-eb32203fa39e
+langcode: en
+status: true
+dependencies:
+  config:
+  - field.storage.kino_entity.field_year
+  - kino_entity.kino_entity_type.kinoserial
+  - taxonomy.vocabulary.year
+id: kino_entity.kinoserial.field_year
+field_name: field_year
+entity_type: kino_entity
+bundle: kinoserial
+label: Year
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      year: year
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,6 @@
+uuid: 78de7774-a4f2-499b-9095-82f4c59fc218
+langcode: en
+status: true
+dependencies: {  }
+id: kino_user_profile
+label: 'Kino user profile'

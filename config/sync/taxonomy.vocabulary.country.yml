@@ -1,0 +1,9 @@
+uuid: dded7d2d-660d-4f73-a7ec-16a138348e56
+langcode: en
+status: true
+dependencies: {  }
+name: country
+vid: country
+description: ''
+hierarchy: 0
+weight: 0

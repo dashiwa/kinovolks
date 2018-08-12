@@ -1,0 +1,38 @@
+uuid: 319e247e-a16b-4b6c-960d-bcdcd7793366
+langcode: en
+status: true
+dependencies:
+  config:
+  - field.field.kino_user_entity.kino_user_profile.field_kino_user_ref
+  - kino_storage.kino_user_entity_type.kino_user_profile
+  module:
+  - user
+id: kino_user_entity.kino_user_profile.default
+targetEntityType: kino_user_entity
+bundle: kino_user_profile
+mode: default
+content:
+  field_kino_user_ref:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  name:
+    label: above
+    type: string
+    weight: -4
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  user_id:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

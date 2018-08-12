@@ -1,0 +1,22 @@
+uuid: 0516fdd7-08df-4280-9f7b-2023ec02acfb
+langcode: en
+status: true
+dependencies:
+  config:
+  - field.storage.kino_entity.field_description
+  - kino_entity.kino_entity_type.kinoserial
+  module:
+  - text
+id: kino_entity.kinoserial.field_description
+field_name: field_description
+entity_type: kino_entity
+bundle: kinoserial
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
