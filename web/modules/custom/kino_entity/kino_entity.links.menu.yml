@@ -1,0 +1,17 @@
+# Kino entity menu items definition
+entity.kino_entity.collection:
+  title: 'Kino entity list'
+  route_name: entity.kino_entity.collection
+  description: 'List Kino entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+
+# Kino entity type menu items definition
+entity.kino_entity_type.collection:
+  title: 'Kino entity type'
+  route_name: entity.kino_entity_type.collection
+  description: 'List Kino entity type (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

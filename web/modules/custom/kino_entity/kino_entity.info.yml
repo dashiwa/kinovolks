@@ -1,0 +1,5 @@
+name: 'kino_entity'
+type: module
+description: 'Kino entity module'
+core: 8.x
+package: 'Kino'
