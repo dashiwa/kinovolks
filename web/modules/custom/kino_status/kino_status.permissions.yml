@@ -1,0 +1,30 @@
+add status entity entities:
+  title: 'Create new Status entity entities'
+
+administer status entity entities:
+  title: 'Administer Status entity entities'
+  description: 'Allow to access the administration form to configure Status entity entities.'
+  restrict access: true
+
+delete status entity entities:
+  title: 'Delete Status entity entities'
+
+edit status entity entities:
+  title: 'Edit Status entity entities'
+
+view published status entity entities:
+  title: 'View published Status entity entities'
+
+view unpublished status entity entities:
+  title: 'View unpublished Status entity entities'
+
+view all status entity revisions:
+  title: 'View all Status entity revisions'
+
+revert all status entity revisions:
+  title: 'Revert all Status entity revisions'
+  description: 'Role requires permission <em>view Status entity revisions</em> and <em>edit rights</em> for status entity entities in question or <em>administer status entity entities</em>.'
+
+delete all status entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Status entity revisions</em> and <em>delete rights</em> for status entity entities in question or <em>administer status entity entities</em>.'

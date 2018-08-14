@@ -1,0 +1,5 @@
+name: 'kino_status'
+type: module
+description: 'Kino status'
+core: 8.x
+package: 'Kino'
