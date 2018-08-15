@@ -3,10 +3,10 @@ langcode: en
 status: false
 dependencies:
   config:
-  - system.menu.main
+    - system.menu.main
   module:
-  - node
-  - user
+    - node
+    - user
 _core:
   default_config_hash: _12Vkw1VGBz_s0_W_LLVCrBPpioNSnB6zcd1lUAQubM
 id: glossary
@@ -354,12 +354,12 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - 'user.node_grants:view'
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
       max-age: -1
       tags: {  }
   attachment_1:
@@ -422,12 +422,12 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - 'user.node_grants:view'
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
       max-age: -1
       tags: {  }
   page_1:
@@ -449,11 +449,11 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - 'user.node_grants:view'
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
       max-age: -1
       tags: {  }

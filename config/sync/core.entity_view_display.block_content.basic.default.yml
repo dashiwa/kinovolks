@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-  - block_content.type.basic
-  - field.field.block_content.basic.body
+    - block_content.type.basic
+    - field.field.block_content.basic.body
   module:
-  - text
+    - text
 _core:
   default_config_hash: orJpHUlAc_wiQLMUjIgEJXGeiqylGHMPcmNRjGtct-M
 id: block_content.basic.default

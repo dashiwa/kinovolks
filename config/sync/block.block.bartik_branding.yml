@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   module:
-  - system
+    - system
   theme:
-  - bartik
+    - bartik
 _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: bartik_branding

@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.storage.node.field_image
-  - node.type.article
+    - field.storage.node.field_image
+    - node.type.article
   module:
-  - image
+    - image
 _core:
   default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
 id: node.article.field_image

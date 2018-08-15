@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   theme:
-  - bartik
+    - bartik
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: bartik_page_title

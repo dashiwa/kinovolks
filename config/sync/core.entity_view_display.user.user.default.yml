@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.field.user.user.user_picture
-  - image.style.thumbnail
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
   module:
-  - image
-  - user
+    - image
+    - user
 _core:
   default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
 id: user.user.default

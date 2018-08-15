@@ -1,0 +1,20 @@
+uuid: 429f94d2-0fc6-410b-8dea-3aa371480f27
+langcode: en
+status: true
+dependencies:
+  module:
+    - kino_entity
+    - kino_status
+id: status_entity.field_kino_reference
+field_name: field_kino_reference
+entity_type: status_entity
+type: entity_reference
+settings:
+  target_type: kino_entity
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

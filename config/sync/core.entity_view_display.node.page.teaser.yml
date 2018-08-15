@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-  - core.entity_view_mode.node.teaser
-  - field.field.node.page.body
-  - node.type.page
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.body
+    - node.type.page
   module:
-  - text
-  - user
+    - text
+    - user
 _core:
   default_config_hash: cSv5lDnbIgDug475Hdz3woED2XMqYv3awI-J9u1JLbY
 id: node.page.teaser

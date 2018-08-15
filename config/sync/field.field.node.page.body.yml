@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.storage.node.body
-  - node.type.page
+    - field.storage.node.body
+    - node.type.page
   module:
-  - text
+    - text
 _core:
   default_config_hash: rUop-8b6hvxxDYbv-KobTfNIBNbPY9qOPl8f6kBNSpw
 id: node.page.body

@@ -1,0 +1,59 @@
+uuid: 54cfb71f-7b6f-4756-8149-c07928d55dbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.status_entity.status_for_kino.field_current_series
+    - field.field.status_entity.status_for_kino.field_kino_reference
+    - field.field.status_entity.status_for_kino.field_user_reference
+    - kino_status.status_entity_type.status_for_kino
+id: status_entity.status_for_kino.default
+targetEntityType: status_entity
+bundle: status_for_kino
+mode: default
+content:
+  field_current_series:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_kino_reference:
+    weight: 28
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_user_reference:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

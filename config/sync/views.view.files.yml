@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   module:
-  - file
-  - user
+    - file
+    - user
 _core:
   default_config_hash: rRWxAX-IQkJ5viACQRovRkC784EyCl9493GU_G23n2Q
 id: files
@@ -721,11 +721,11 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
       max-age: -1
       tags: {  }
   page_1:
@@ -758,11 +758,11 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
       max-age: -1
       tags: {  }
   page_2:
@@ -1116,9 +1116,9 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - user.permissions
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
       max-age: -1
       tags: {  }

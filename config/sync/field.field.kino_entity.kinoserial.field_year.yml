@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.storage.kino_entity.field_year
-  - kino_entity.kino_entity_type.kinoserial
-  - taxonomy.vocabulary.year
+    - field.storage.kino_entity.field_year
+    - kino_entity.kino_entity_type.kinoserial
+    - taxonomy.vocabulary.year
 id: kino_entity.kinoserial.field_year
 field_name: field_year
 entity_type: kino_entity

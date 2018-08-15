@@ -1,0 +1,29 @@
+uuid: 4479298e-1f3b-42e3-ab0d-d11018df82f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.status_entity.field_current_series
+    - kino_status.status_entity_type.status_for_kino
+    - taxonomy.vocabulary.current_series
+id: status_entity.status_for_kino.field_current_series
+field_name: field_current_series
+entity_type: status_entity
+bundle: status_for_kino
+label: 'Current series'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      current_series: current_series
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

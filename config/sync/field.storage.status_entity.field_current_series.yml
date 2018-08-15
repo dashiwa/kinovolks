@@ -1,0 +1,20 @@
+uuid: c62db3ba-0c96-4211-abf2-1c9f71f5d861
+langcode: en
+status: true
+dependencies:
+  module:
+    - kino_status
+    - taxonomy
+id: status_entity.field_current_series
+field_name: field_current_series
+entity_type: status_entity
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

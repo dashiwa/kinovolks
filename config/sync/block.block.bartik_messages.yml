@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   module:
-  - system
+    - system
   theme:
-  - bartik
+    - bartik
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: bartik_messages

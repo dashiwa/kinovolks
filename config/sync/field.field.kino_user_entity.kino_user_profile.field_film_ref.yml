@@ -1,0 +1,28 @@
+uuid: 89c5522d-9a2f-410f-8529-1005ca04dd5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.kino_user_entity.field_film_ref
+    - kino_entity.kino_entity_type.kinoserial
+    - kino_storage.kino_user_entity_type.kino_user_profile
+id: kino_user_entity.kino_user_profile.field_film_ref
+field_name: field_film_ref
+entity_type: kino_user_entity
+bundle: kino_user_profile
+label: 'Film Ref'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:kino_entity'
+  handler_settings:
+    target_bundles:
+      kinoserial: kinoserial
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

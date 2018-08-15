@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-  - comment
+    - comment
 _core:
   default_config_hash: VetuwpecspsjqMCd8e7wKyr2l-AZEh1UNYWNtNywHXM
 id: comment_delete_action

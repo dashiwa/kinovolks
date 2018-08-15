@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   module:
-  - system
+    - system
   theme:
-  - seven
+    - seven
 _core:
   default_config_hash: WWu2OQswgCztl9OeXjD1stexIEMZsSgPMYIdC-JHx9c
 id: seven_breadcrumbs

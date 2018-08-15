@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   module:
-  - kino_entity
-  - taxonomy
+    - kino_entity
+    - taxonomy
 id: kino_entity.field_genre
 field_name: field_genre
 entity_type: kino_entity

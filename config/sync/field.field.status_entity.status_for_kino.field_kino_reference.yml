@@ -1,0 +1,21 @@
+uuid: dd06d400-1556-450b-893d-1154423f1971
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.status_entity.field_kino_reference
+    - kino_status.status_entity_type.status_for_kino
+id: status_entity.status_for_kino.field_kino_reference
+field_name: field_kino_reference
+entity_type: status_entity
+bundle: status_for_kino
+label: 'Kino reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:kino_entity'
+  handler_settings: {  }
+field_type: entity_reference

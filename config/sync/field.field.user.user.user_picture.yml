@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.storage.user.user_picture
+    - field.storage.user.user_picture
   module:
-  - image
-  - user
+    - image
+    - user
 _core:
   default_config_hash: Iiq0AttdhgbebJwabSFwQQ1ORn64GoGz0xSZ_eyCJ8A
 id: user.user.user_picture

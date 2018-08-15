@@ -1,0 +1,9 @@
+uuid: db989c39-f68f-4053-b64e-7a1f71866d35
+langcode: en
+status: true
+dependencies: {  }
+name: 'Current series'
+vid: current_series
+description: ''
+hierarchy: 0
+weight: 0

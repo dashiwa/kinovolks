@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-  - core.entity_view_mode.user.compact
-  - field.field.user.user.user_picture
-  - image.style.thumbnail
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
   module:
-  - image
-  - user
+    - image
+    - user
 _core:
   default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
 id: user.user.compact

@@ -1,0 +1,20 @@
+uuid: 2e397ab9-161f-4790-b533-0937dfa4a443
+langcode: en
+status: true
+dependencies:
+  module:
+    - kino_entity
+    - kino_storage
+id: kino_user_entity.field_film_ref
+field_name: field_film_ref
+entity_type: kino_user_entity
+type: entity_reference
+settings:
+  target_type: kino_entity
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

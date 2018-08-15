@@ -3,7 +3,7 @@ langcode: en
 status: false
 dependencies:
   module:
-  - comment
+    - comment
 _core:
   default_config_hash: K7eNlfU7NEUajz01wItywZklr2oaPgL6s1_97fmDXLA
 id: comment.full

@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-  - node
+    - node
 _core:
   default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
 id: node_unpromote_action

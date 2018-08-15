@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.storage.kino_entity.field_description
-  - kino_entity.kino_entity_type.kinoserial
+    - field.storage.kino_entity.field_description
+    - kino_entity.kino_entity_type.kinoserial
   module:
-  - text
+    - text
 id: kino_entity.kinoserial.field_description
 field_name: field_description
 entity_type: kino_entity

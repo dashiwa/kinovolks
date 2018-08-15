@@ -1,0 +1,6 @@
+uuid: dee0335e-0368-467f-81a6-2243decdf952
+langcode: en
+status: true
+dependencies: {  }
+id: status_for_kino
+label: 'Status for Kino'

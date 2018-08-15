@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   theme:
-  - seven
+    - seven
 _core:
   default_config_hash: ZSpc3IoSaLd0PkB02nxjVPBMztIdsTdHek9SiGaqZ_c
 id: seven_page_title

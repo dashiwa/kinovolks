@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-  - system.menu.account
+    - system.menu.account
   module:
-  - system
+    - system
   theme:
-  - bartik
+    - bartik
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: bartik_account_menu

@@ -22,6 +22,7 @@ module:
   history: 0
   image: 0
   kino_entity: 0
+  kino_status: 0
   kino_storage: 0
   link: 0
   menu_ui: 0

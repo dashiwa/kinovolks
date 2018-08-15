@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.field.node.page.body
-  - node.type.page
+    - field.field.node.page.body
+    - node.type.page
   module:
-  - path
-  - text
+    - path
+    - text
 _core:
   default_config_hash: sb0qCkzU_8mNq29NehYAU8jCBXWPLeX0UN8sYFVGVcw
 id: node.page.default

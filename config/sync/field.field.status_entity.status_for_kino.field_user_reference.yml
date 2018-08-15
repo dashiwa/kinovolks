@@ -1,0 +1,28 @@
+uuid: f5698793-ba44-4fd1-9d20-9debed70f1ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.status_entity.field_user_reference
+    - kino_status.status_entity_type.status_for_kino
+id: status_entity.status_for_kino.field_user_reference
+field_name: field_user_reference
+entity_type: status_entity
+bundle: status_for_kino
+label: 'User Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

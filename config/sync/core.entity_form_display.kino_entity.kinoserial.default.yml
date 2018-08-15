@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.field.kino_entity.kinoserial.field_country
-  - field.field.kino_entity.kinoserial.field_description
-  - field.field.kino_entity.kinoserial.field_genre
-  - field.field.kino_entity.kinoserial.field_year
-  - kino_entity.kino_entity_type.kinoserial
+    - field.field.kino_entity.kinoserial.field_country
+    - field.field.kino_entity.kinoserial.field_description
+    - field.field.kino_entity.kinoserial.field_genre
+    - field.field.kino_entity.kinoserial.field_image_film
+    - field.field.kino_entity.kinoserial.field_year
+    - image.style.thumbnail
+    - kino_entity.kino_entity_type.kinoserial
   module:
-  - text
+    - image
+    - text
 id: kino_entity.kinoserial.default
 targetEntityType: kino_entity
 bundle: kinoserial
@@ -41,6 +44,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_image_film:
+    weight: 30
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_year:
     weight: 26

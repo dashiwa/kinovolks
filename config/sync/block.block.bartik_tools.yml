@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-  - system.menu.tools
+    - system.menu.tools
   module:
-  - system
+    - system
   theme:
-  - bartik
+    - bartik
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: bartik_tools

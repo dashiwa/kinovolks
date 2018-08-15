@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-  - user.role.administrator
+    - user.role.administrator
   module:
-  - user
+    - user
 id: user_remove_role_action.administrator
 label: 'Remove the Administrator role from the selected user(s)'
 type: user

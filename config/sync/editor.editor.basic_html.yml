@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-  - filter.format.basic_html
+    - filter.format.basic_html
   module:
-  - ckeditor
+    - ckeditor
 _core:
   default_config_hash: AqlPmO16LvJI4D0Ih6u4GFQIzqr5OnLgAUSjcUGWk2g
 format: basic_html
@@ -13,28 +13,35 @@ editor: ckeditor
 settings:
   toolbar:
     rows:
-    - - name: Formatting
-        items:
-        - Bold
-        - Italic
-      - name: Linking
-        items:
-        - DrupalLink
-        - DrupalUnlink
-      - name: Lists
-        items:
-        - BulletedList
-        - NumberedList
-      - name: Media
-        items:
-        - Blockquote
-        - DrupalImage
-      - name: 'Block Formatting'
-        items:
-        - Format
-      - name: Tools
-        items:
-        - Source
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+        -
+          name: Tools
+          items:
+            - Source
   plugins:
     stylescombo:
       styles: ''

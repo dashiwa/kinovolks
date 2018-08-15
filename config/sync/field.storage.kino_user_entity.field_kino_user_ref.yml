@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   module:
-  - kino_storage
-  - user
+    - kino_storage
+    - user
 id: kino_user_entity.field_kino_user_ref
 field_name: field_kino_user_ref
 entity_type: kino_user_entity

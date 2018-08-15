@@ -3,17 +3,17 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.field.node.article.body
-  - field.field.node.article.comment
-  - field.field.node.article.field_image
-  - field.field.node.article.field_tags
-  - image.style.thumbnail
-  - node.type.article
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - image.style.thumbnail
+    - node.type.article
   module:
-  - comment
-  - image
-  - path
-  - text
+    - comment
+    - image
+    - path
+    - text
 _core:
   default_config_hash: vPb_yvhA-xuNoV_yOmOwYxGuHNRIH1CoMK2qi7BSga0
 id: node.article.default

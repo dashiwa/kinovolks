@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-  - field.storage.node.comment
-  - node.type.article
+    - field.storage.node.comment
+    - node.type.article
   module:
-  - comment
+    - comment
 _core:
   default_config_hash: r-hrxwbKKXBKQnBefGjXNSdU00u2fPvMWEykGRHqd10
 id: node.article.comment
@@ -18,12 +18,13 @@ description: ''
 required: false
 translatable: true
 default_value:
-- status: 2
-  cid: 0
-  last_comment_name: null
-  last_comment_timestamp: 0
-  last_comment_uid: 0
-  comment_count: 0
+  -
+    status: 2
+    cid: 0
+    last_comment_name: null
+    last_comment_timestamp: 0
+    last_comment_uid: 0
+    comment_count: 0
 default_value_callback: ''
 settings:
   default_mode: 1

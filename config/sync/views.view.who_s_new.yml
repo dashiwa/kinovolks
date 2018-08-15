@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-  - user
+    - user
 _core:
   default_config_hash: o_8fSWHZOVIbydZACGsSX09DtuJhqkRmNOzcVj-4bQI
 id: who_s_new
@@ -169,9 +169,9 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user.permissions
       max-age: -1
       tags: {  }
   block_1:
@@ -186,8 +186,8 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user.permissions
       max-age: -1
       tags: {  }

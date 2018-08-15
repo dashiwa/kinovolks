@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   module:
-  - node
-  - user
+    - node
+    - user
 _core:
   default_config_hash: sqwEJaSgef4rCaRMf-JdNAdV_kCICU1SfQh5Wl2sUrc
 id: content_recent
@@ -294,11 +294,11 @@ display:
       link_display: '0'
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - user
-      - 'user.node_grants:view'
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
       max-age: -1
       tags: {  }
   block_1:
@@ -310,10 +310,10 @@ display:
       display_extenders: {  }
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - user
-      - 'user.node_grants:view'
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
       max-age: -1
       tags: {  }

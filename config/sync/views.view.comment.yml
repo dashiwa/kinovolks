@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   module:
-  - comment
-  - user
+    - comment
+    - user
 _core:
   default_config_hash: cCq1vjj1qmyd39oBIUyOe8YPDsobJ5fZRhp2Xy5O7lA
 id: comment
@@ -183,8 +183,8 @@ display:
           action_title: Action
           include_exclude: include
           selected_actions:
-          - comment_delete_action
-          - comment_unpublish_action
+            - comment_delete_action
+            - comment_unpublish_action
           plugin_id: comment_bulk_form
           entity_type: comment
         subject:
@@ -849,11 +849,11 @@ display:
           1: AND
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
       cacheable: false
       max-age: 0
       tags: {  }
@@ -878,11 +878,11 @@ display:
       display_comment: ''
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
       cacheable: false
       max-age: 0
       tags: {  }
@@ -1120,8 +1120,8 @@ display:
           action_title: Action
           include_exclude: include
           selected_actions:
-          - comment_delete_action
-          - comment_publish_action
+            - comment_delete_action
+            - comment_publish_action
           plugin_id: comment_bulk_form
           entity_type: comment
         subject:
@@ -1572,11 +1572,11 @@ display:
           1: AND
     cache_metadata:
       contexts:
-      - 'languages:language_content'
-      - 'languages:language_interface'
-      - url
-      - url.query_args
-      - user.permissions
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
       cacheable: false
       max-age: 0
       tags: {  }

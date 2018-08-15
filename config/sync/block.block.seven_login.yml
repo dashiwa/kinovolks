@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   module:
-  - user
+    - user
   theme:
-  - seven
+    - seven
 _core:
   default_config_hash: IItlF4SKHgxduIysVQdvirDJ_v3HGuAviOkidAOJYRE
 id: seven_login

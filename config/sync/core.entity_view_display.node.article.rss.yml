@@ -3,14 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
-  - core.entity_view_mode.node.rss
-  - field.field.node.article.body
-  - field.field.node.article.comment
-  - field.field.node.article.field_image
-  - field.field.node.article.field_tags
-  - node.type.article
+    - core.entity_view_mode.node.rss
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - node.type.article
   module:
-  - user
+    - user
 _core:
   default_config_hash: 2rIr6K5Q0UQ9khg0zE_CK-PtJH76UL-BDDZcZnZzwCc
 id: node.article.rss
